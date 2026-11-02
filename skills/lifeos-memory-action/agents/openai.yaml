@@ -1,0 +1,4 @@
+interface:
+  display_name: "LifeOS Memory & Action"
+  short_description: "Build AI memory and precise, undoable actions"
+  default_prompt: "Use $lifeos-memory-action to improve this app’s AI memory and safe task actions."

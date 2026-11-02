@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>用于录制你要转换为文字的语音消息。</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>用于在设备上把语音转换为可编辑的消息文字。</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.example.LifeOS.study</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>lifeos</string>
+			</array>
+		</dict>
+	</array>
+	<key>LifeOSWidgetAppGroup</key>
+	<string>$(LIFEOS_WIDGET_APP_GROUP)</string>
+</dict>
+</plist>
